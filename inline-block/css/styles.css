@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Nunito', sant-serif, 'Arial';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+;
