@@ -14,45 +14,50 @@
 
 <body>
     <header>
-        <div class="site-options features">
-            <a href="#" class="site-options__site-loogo feature">
-                <img class="site-options__logotype" width="130" height="30" src="img/Delivery_Trans_logo.svg" alt="Delivery Trans">
-            </a>
-            <button class="site-options__call-btn feature">+380988232323</button>
-            <input class="site-options__search feature" type="text">
-            <select class="site-options__sity-finder feature" name="Оберіть місто" id="">
-                <option selected disabled value="">Виберіть місто</option>
-                <option value="Vinnytsia">Вінниця</option>
-                <option value="Kyiv">Київ</option>
-                <option value="Lviv">Львів</option>
-            </select>
-            <button class="site-options__calc-btn feature">Калькулятор</button>
-            <button class="site-options__sign-in-btn feature">Вхід</button>
-
+        <div class="site-options__wrapper">
+            <div class="site-options features container">
+                <a href="#" class="site-options__site-loogo feature">
+                    <img class="site-options__logotype" width="130" height="30" src="img/Delivery_Trans_logo.svg" alt="Delivery Trans">
+                </a>
+                <button class="site-options__btn call-btn feature">+380988232323</button>
+                <input class="site-options__search feature" placeholder="Пошук" type="text">
+                <select class="site-options__sity-finder feature" name="Оберіть місто" id="">
+                    <option selected disabled value="">Виберіть місто</option>
+                    <option value="Vinnytsia">Вінниця</option>
+                    <option value="Kyiv">Київ</option>
+                    <option value="Lviv">Львів</option>
+                </select>
+                <button class="site-options__btn calc-btn feature">Калькулятор</button>
+                <button class="site-options__btn sign-in-btn feature">Вхід</button>
+            </div>
+            <div class="site-navigation__wrapper">
+                <nav class="site-navigation container">
+                    <ul class="navigation-list">
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Послуги</a></li>
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Міжнародні перевезення</a></li>
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Для бізнесу</a></li>
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Про компанію</a></li>
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Блог</a></li>
+                        <li class="navigation-list__item"><a href="#" class="navigation-list__link">Контакти</a></li>
+                        <li class="navigation-list__item"><a href="mailto:osipovdima1989@gmail.com" class="navigation-list__link">osipovdima1989@gmail.com</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="site-navigation">
-            <ul class="navigation-list">
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Послуги</a></li>
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Міжнародні перевезення</a></li>
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Для бізнесу</a></li>
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Про компанію</a></li>
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Блог</a></li>
-                <li class="navigation-list__item"><a href="#" class="navigation-list__link">Контакти</a></li>
-                <li class="navigation-list__item"><a href="mailto:osipovdima1989@gmail.com" class="navigation-list__link">osipovdima1989@gmail.com</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section class="banner">
-            <p class="section-slogan">Розвантаження завантаження</p>
-            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-            <form action="" method="get">
-                <label><input type="text"></label>
-                <button type="submit">Замовити дзвінок</button>
-            </form>
-            <p class="section-confidence-msgg">Отправляя нам свои данные, вы подтверждаете согласие с нашей Политикой конфиденциальности</p>
+            <div class="container">
+                <p class="section-slogan">Розвантаження завантаження</p>
+                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <form action="" method="get">
+                    <label><input type="text"></label>
+                    <button type="submit">Замовити дзвінок</button>
+                </form>
+                <p class="section-confidence-msgg">Отправляя нам свои данные, вы подтверждаете согласие с нашей Политикой конфиденциальности</p>
+            </div>
         </section>
     </main>
 </body>

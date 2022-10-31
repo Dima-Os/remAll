@@ -9,4 +9,157 @@ html {
     box-sizing: inherit
 }
 
-;
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.site-options__wrapper {
+    background-color: #006790;
+    color: #fff;
+}
+
+.features {
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+    font-size: 0px;
+    line-height: 25px;
+}
+
+.feature {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature:not(:last-child) {
+    margin-right: 36px;
+}
+
+.site-options__btn {
+    font-family: inherit;
+    background-color: #FFD200;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.site-options__btn::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.call-btn::before {
+    background-image: url("../img/ico/phone.svg");
+}
+
+.site-options__search {
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 18px 0 18px 20px;
+    min-width: 528px;
+}
+
+.site-options__search::placeholder {
+    color: inherit;
+}
+
+.site-options__sity-finder {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.site-options__sity-finder>option {
+    background-color: #006790;
+}
+
+.site-options__sity-finder>option:disabled {
+    color: #ffffffb0;
+}
+
+
+.calc-btn::before {
+    background-image: url("../img/ico/calc.svg");
+}
+
+.sign-in-btn {
+    color: inherit;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+.sign-in-btn::before {
+    background-image: url("../img/ico/sign-in.svg");
+}
+
+.site-navigation__wrapper {
+    background-color: #028BC1;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(270deg, rgba(0, 103, 144, 0) 0%, #006790 100%), url("../img/Hero-section_banner.jpg");
+
+    padding-top: 236px;
+}
+
+.section-slogan {
+    line-height: 110px;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+
+}
+
+.navigation-list__item {
+    display: inline-block;
+}
+
+.navigation-list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.navigation-list__link {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: inherit;
+}
