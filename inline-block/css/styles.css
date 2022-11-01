@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Nunito', sant-serif, 'Arial';
+    color: #fff;
 }
 
 *,
@@ -15,6 +16,16 @@ img {
     height: auto;
 }
 
+header {
+    position: absolute;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     max-width: 1500px;
     margin: 0 auto;
@@ -22,7 +33,6 @@ img {
 
 .site-options__wrapper {
     background-color: #006790;
-    color: #fff;
 }
 
 .features {
@@ -64,6 +74,7 @@ img {
     margin-right: 12px;
     background-repeat: no-repeat;
     background-position: center;
+    vertical-align: baseline;
 }
 
 .call-btn::before {
@@ -151,10 +162,11 @@ img {
 
 .navigation-list__item {
     display: inline-block;
+    padding: 18px 0px;
 }
 
 .navigation-list__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 104px;
 }
 
 .navigation-list__link {
@@ -162,4 +174,16 @@ img {
     line-height: 25px;
     text-decoration: none;
     color: inherit;
+}
+
+.section-description {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    padding-right: 740px;
+    margin-bottom: 50px;
+}
+
+.banner {
+    padding-bottom: 160px;
 }
