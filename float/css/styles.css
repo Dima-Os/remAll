@@ -44,6 +44,10 @@ header {
 }
 
 /* Logotype */
+.logotype-wrp {
+    vertical-align: middle;
+}
+
 .logotype::before {
     content: "C";
     background-color: #B17955;
@@ -98,6 +102,28 @@ header {
 
 .site-navigation-list__item {
     display: inline-block;
+}
+
+.site-features {
+    width: 660px;
+
+}
+
+.site-feature {
+    text-align: right;
+}
+
+.site-feature:not(:last-child) {
+    margin-right: 56px;
+}
+
+.site-feature>span {
+    display: block;
+}
+
+.site-features>.mobile::after {
+    display: block;
+    content: "Замовити дзвінок";
 }
 
 /* Slider */
